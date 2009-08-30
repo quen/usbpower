@@ -1,0 +1,49 @@
+usbpower
+--------
+
+Copyright 2009 Samuel Marshall
+http://www.leafdigital.com/software/
+Gnu Public License v3
+
+This program lets you send suspend or resume commands to any USB device.
+These are the commands used if your computer goes to sleep; they 
+essentially turn off and on the device.
+
+For example, if you use this command to suspend your mouse, you'll see its
+light go off (and it will obviously stop working). When you resume it, the
+light will go back on (and it will start working).
+
+It is probably not a good idea to suspend your keyboard as you may have
+some trouble resuming it again.
+
+There are also other devices which it might be inadvisable to suspend
+(such as a USB disk drive you're currently using). Use this software 
+at your own risk.
+
+
+--> To download
+
+* Use the Downloads(1) tab on github.
+* Download the file usbpower.dmg.
+* Open the disk image and move the executable somewhere convenient.
+
+
+--> To run
+
+* Open Terminal.
+* Use 'cd' to change the folder where you put the file.
+* Run:
+
+./usbpower
+
+* Full instructions will be displayed.
+
+
+--> To build this application
+
+(Requires OS X 10.5+ and Xcode 3.0+)
+
+* Double-click on the xcode project.
+* Click build.
+* Put the executable somewhere useful.
+
